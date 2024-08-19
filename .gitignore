@@ -154,9 +154,25 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder directory attributes
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# macOS resource forks and metadata files
+._*
+
+# macOS-specific folder that may be created during ZIP extraction
+__MACOSX/
+
+# Thumbnails and related files (also used by Windows)
+Thumbs.db
